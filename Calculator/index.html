@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora 2</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <script src="index.js"></script>
+        <header>
+            <h1>Calculadora</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://www.techtarget.com/whatis/definition/calculator">What is a calculator?</a></li>
+            </ul>
+        </nav>
+        <div id="All">
+            <div id="Container">
+                <br>
+                <div id="Calculadora">
+                    <div class="Entradas">
+                        <h3>Pon los números</h3>
+                        <input id="num1" type="number" placeholder="x">
+                        <input id="num2" type="number" placeholder="n">
+                    </div>
+                    <br>
+                    <div class="Operadores">
+                        <div>
+                            <h3>Operadores</h3>
+                            <div>
+                                <button onclick="suma()">x+n</button>
+                                <button onclick="resta()">x-n</button>
+                                <button onclick="mult()">x*n</button>
+                                <button onclick="div()">x/n</button>
+                                <button onclick="raised()" >x^n</button>
+                                <button onclick="root()">x√n</button>
+                                <button onclick="Log()" >logx(n)</button>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="Res">
+                        <div>
+                            <div class="cuadroDeResultado">
+                                <h3>Resultado</h3>
+                                <p id="Resultado"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <aside>
+                <div>
+                    <div><h4>Esto es el aside</h4></div>
+                    <div><img class="picture" src="https://th.bing.com/th/id/R.e52d0fa0b0fc89c3c8de16ff4974a828?rik=O0cHyX7BsTPXRQ&pid=ImgRaw&r=0" alt=""></div>
+                </div>
+            </aside>
+        </div>
+        <footer>
+            <h2>Este es el footer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod animi ducimus consectetur itaque error quas laboriosam nam, dignissimos perferendis facere vero cum nesciunt soluta dolores repudiandae laborum sapiente. Sit, at.</p>
+            <h4>Copyright: Iñigo Escobal</h4>
+        </footer>
+    </body>
+</html>

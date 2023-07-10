@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+}
+nav ul li {
+    list-style: none;
+    float: left;
+    margin-left: 50px;
+    padding-top: 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav {
+    background-color: black;
+    font-weight: bold;
+    height: 50px;
+}
+body {
+    background-color: wheat;
+    align-items: center;
+}
+#All {
+    text-align: center;
+    font-family: Calibri;
+    height: 450px;
+}
+header {
+    background-color: lightgray;
+    text-align: center;
+    height: 50px;
+}
+#Container {
+    width: 80%;
+    float: left;
+    height: 100%;
+}
+#Calculadora {
+    margin-top: 80px;
+}
+aside {
+    width: 20%;
+    float: right;
+    background-color: lightcyan;
+    height: 100%;
+}
+.picture {
+    height: 100px;
+}
+aside div div {
+    margin: 20px;
+}
+footer {
+    height: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer h2 {
+    padding-top: 20px;
+}
+footer p {
+    padding-top: 20px;
+}
+footer h4 {
+    padding: 50px;
+}
+#Res {
+    text-align: center;
+    align-items: center;
+    display: block;
+    margin-left: 510px;
+}
+.cuadroDeResultado {
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border: solid;
+}
+.Operadores div div {
+    border: solid;
+    width: 290px;
+    margin-left: 460px;
+}
