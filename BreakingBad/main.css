@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.ClearFix {
+    clear: both;
+}
+.m ul li{
+    list-style: none;
+    font-family: Calibri;
+    font-weight: bold;
+    float:left;
+    margin: 50px;
+}
+.m ul li a {
+    text-decoration:none;
+    color: white;
+}
+.m {
+    height: 90px;
+    background-color: black;
+}
+body {
+    background-image: url(https://th.bing.com/th/id/R.39b80d1fcfb7b5fe5f6e28cd4ecd84e4?rik=oN8dS3ce%2fM9Ywg&pid=ImgRaw&r=0);
+}
+article {
+    color: wheat;
+    margin-top: 40px;
+    font-family: Calibri;
+    font-size: 40px;
+    border: solid;
+}
+#i {
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-weight: bold;
+    font-family: Calibri;
+    text-align: center;
+}
+#Body {
+    padding: 10px;
+}
+footer {
+    height: 100px;
+    background-color: black;
+}
+.n {
+    height: 50px;
+}
+.Logo li {
+    list-style: none;
+    float: left;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#n {
+    margin-left: 525px;
+}
+.a {
+    height: 50px;
+    float: right;
+    padding: 20px;
+    padding-right: 50px;
+}

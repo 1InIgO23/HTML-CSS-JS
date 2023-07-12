@@ -1,0 +1,53 @@
+.ClearFix {
+    clear: both;
+}
+body{
+    background-image: url(https://th.bing.com/th/id/R.39b80d1fcfb7b5fe5f6e28cd4ecd84e4?rik=oN8dS3ce%2fM9Ywg&pid=ImgRaw&r=0);
+}
+.m ul li{
+    list-style: none;
+    font-family: Calibri;
+    font-weight: bold;
+    float:left;
+    margin: 50px;
+}
+.m ul li a {
+    text-decoration:none;
+    color: white;
+}
+.m {
+    height: 90px;
+    background-color: black;
+}
+footer {
+    height: 100px;
+    background-color: black;
+}
+.Logo li {
+    list-style: none;
+    float: left;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.n {
+    height: 50px;
+}
+.a {
+    height: 50px;
+    float: right;
+    padding: 20px;
+    padding-right: 50px;
+}
+#n {
+    margin-left: 525px;
+}
+table {
+    background-color: wheat;
+}
+h1 {
+    color: white;
+    font-weight: bold;
+    font-family: Calibri;
+    text-align: center;
+}
